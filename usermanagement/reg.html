@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: linear-gradient(72deg, #26dbe1, grey);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        body, html{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .formdiv{
+            border: rgb(215, 216, 221) Solid 1px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: grey 1px 1px 2px 2px;
+            border-radius: 10px;
+            width: 60%;
+           margin-top: 20px;
+            
+        }
+        .input-style{
+            height: 30px;
+            border-radius: 7px;
+            padding: 5px;
+            font-size: 18px;
+            background-color: transparent;
+            color:#fff;
+            width: 80%;
+        }
+        .input-container{
+            margin: 5px;
+        }
+        .button-blue{
+            color:#fff;
+            background-color: rgb(18, 81, 240);
+            text-align: center;
+            font-size: 18px;
+            border-radius: 7px;
+        }
+        .footer{
+            position: fixed;
+            margin: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="formdiv">
+    <form action="">
+        <div class="input-container">
+            <input type="text" name="firstName" id="" class="input-style" placeholder="Enter your first name">
+        </div>
+        <div class="input-container">
+            <input type="text" name="lastName" id="" class="input-style" placeholder="Enter your last name">
+        </div>
+        <div class="input-container">
+            <input type="text" name="age" id="" class="input-style" placeholder="Enter your age">
+        </div>
+        <div class="input-container">
+            <select name="gender" id="" class="input-style">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div class="input-container">
+            <input type="submit" class="button-blue" value="Submit">
+        </div>
+    </form>
+    
+   </div>
+    
+</div>
+
+<div class="footer">
+@ 2023 All Right Reserved.
+</div>
+</body>
+</html>
